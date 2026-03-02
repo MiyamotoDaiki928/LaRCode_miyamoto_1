@@ -3,6 +3,10 @@
 # https://atcoder.jp/contests/abs/tasks/practice_1
 
 # 入力
-
+a = int(input())
+b, c = map(int, input().split())
+s = input()
 
 # 出力
+total = a + b + c
+print(total, s)
