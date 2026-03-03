@@ -1,3 +1,4 @@
 ## LaRCode_miyamoto_1
 ---
-最初はBeginners Selectionから始めると簡単だと思います。
+何もかもはじめての場合は、Python入門 AtCoder Programming Guide for beginners(APG4bPython)がオススメです。
+>https://atcoder.jp/contests/APG4bPython
