@@ -3,8 +3,6 @@
 # https://atcoder.jp/contests/abs/tasks/abc085_b
 
 # 入力
-n = int(input())
-di = [int(input()) for _ in range(n)]
+
 
 # 出力
-print(len(list(set(di))))
