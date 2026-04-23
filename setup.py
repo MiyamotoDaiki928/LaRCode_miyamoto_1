@@ -129,7 +129,7 @@ def extract_problem_data(html, url):
 
 
 # =========================
-# ファイル生成（核心）
+# ファイル生成
 # =========================
 def generate_files(all_data, contest_url):
     contest_name = contest_url.rstrip("/").split("/")[-1].upper()
