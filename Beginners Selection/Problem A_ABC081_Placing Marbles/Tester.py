@@ -2,7 +2,7 @@ import subprocess
 import sys
 import os
 
-SAMPLES = [{'input': '', 'output': ''}, {'input': '', 'output': ''}, {'input': '', 'output': ''}]
+SAMPLES = [{'input': '101', 'output': '2'}, {'input': '000', 'output': '0'}]
 
 print("=== TEST START ===")
 
