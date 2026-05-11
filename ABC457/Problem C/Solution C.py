@@ -7,3 +7,17 @@
 # =======================================================
 
 
+n, k = map(int, input().split())
+la_list = []
+for i in range(n):
+    la_list.append(list(map(int, input().split())))
+c_list = list(map(int, input().split()))
+
+for i in range(n):
+    L = la_list[i][0]
+    if k > L*c_list[i]:
+        k -= L*c_list[i]
+    else:
+        k = (k-1)%L
+        print(la_list[i][k+1])
+        break
